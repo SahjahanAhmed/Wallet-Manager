@@ -1,0 +1,59 @@
+.current-theme {
+  transform: scale(1.8) !important;
+  background-color: gainsboro;
+  border-radius: 100%;
+  margin: 0 1px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sun:hover {
+  transform: scale(1.1);
+}
+#moon:hover {
+  transform: scale(1.1);
+}
+.buttons {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+.buttons > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.white {
+  background-color: #fff;
+}
+.white .container * {
+  background-color: gainsboro;
+  color: #000;
+}
+.white .container {
+  background: #fff;
+  border: 0.1px solid #9997;
+}
+.white .header {
+  color: #000;
+}
+.white .transaction {
+  border-top: 0.2px solid #9998;
+  border-bottom: 0.2px solid #9998;
+}
+.white .add-btn {
+  background-color: rgb(135, 191, 214);
+}
+.white .add-btn:hover {
+  background-color: rgb(99, 197, 236);
+}
+.white .income {
+  border-right: 1px solid #000;
+}
+.white .delete-transaction {
+  background-color: rgb(241, 19, 19);
+  color: #fff;
+}

@@ -1,0 +1,48 @@
+.transaction {
+  box-shadow: 0 0.2px 0;
+  padding: 15px;
+  background-color: #303030;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  box-shadow: 0 0.2px 0 #fff, 0 -0.2px 0 #fff;
+  /* overflow: hidden; */
+}
+.delete-transaction {
+  background-color: rgba(248, 2, 2, 0.8);
+  color: white;
+  position: absolute;
+  left: -20px;
+  font-weight: bold;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  z-index: 1;
+  height: 100%;
+  width: 16px;
+  transition: all 0.2s ease-in-out;
+  /* display: none; */
+}
+.delete-transaction:hover {
+  background-color: rgba(255, 9, 1, 0.455);
+}
+
+.plus {
+  border-right: 3px solid green;
+}
+.minus {
+  border-right: 3px solid red;
+}
+.text {
+  max-width: 70%;
+  overflow: scroll;
+}
+.amount {
+  overflow: scroll;
+}

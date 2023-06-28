@@ -1,0 +1,13 @@
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 19vh;
+  overflow-y: scroll;
+  overflow-x: visible;
+  padding: 8px 0;
+}
+.transaction-list {
+  box-shadow: 0 0.2px 0 #fff;
+}

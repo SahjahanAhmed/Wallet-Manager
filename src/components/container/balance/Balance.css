@@ -1,0 +1,10 @@
+.balance {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: -14px;
+}
+.balance-amount {
+  overflow: scroll;
+}

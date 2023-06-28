@@ -1,0 +1,15 @@
+.profile {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+  border-radius: 100%;
+}
+.profile-picture {
+  height: 40px;
+  border-radius: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 0 4px #303030;
+}
